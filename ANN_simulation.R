@@ -104,7 +104,7 @@ ANN_simulation(formula = ann.equation, train_set = train, test_set = test,
                neurons = 99, times = 100, stepmax = 1e+09, threshold = 0.05,
                err.fct = "sse", act.fct = "logistic", linear.output = FALSE)
 
-#the output is a table in which are recorded for each estimate: the number of neurons used,
+#the output is a dataframe in which are recorded for each estimate: the number of neurons used,
 #accuracy, sensitivity, specificity and the seed used to obtain that particular result.
 #In this way the result can be easily replicated.
 
