@@ -101,7 +101,7 @@ ANN_simulation <- function(formula, train_set, test_set, neurons, times, thresho
 
 
 ANN_simulation(formula = ann.equation, train_set = train, test_set = test,
-               neurons = 10, times = 1, stepmax = 1e+09, threshold = 0.05,
+               neurons = 99, times = 100, stepmax = 1e+09, threshold = 0.05,
                err.fct = "sse", act.fct = "logistic", linear.output = FALSE)
 
 #the output is a table in which are recorded for each estimate: the number of neurons used,
