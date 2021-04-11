@@ -7,7 +7,6 @@ Data: "09/04/2021"
 ##################################
 library(readxl);library(tidyverse)
 
-setwd("/Users/ruggerocazzato/Desktop/MODELLI DI PREVISIONE DELLE INSOLVENZE/PROGETTO/")
 #import trainset e testset
 train <- read_xlsx("Dataset_finale.xlsx", sheet = 2)
 test <- read_xlsx("Dataset_finale.xlsx", sheet = 3)
