@@ -1,8 +1,8 @@
 ----------------------------------
   
 Title: "Neural Network Simulations"
-Autore: "Ruggero Cazzato"
-Data: "09/04/2021"
+Author: "Ruggero Cazzato"
+Date: "09/04/2021"
 
 ----------------------------------
 
