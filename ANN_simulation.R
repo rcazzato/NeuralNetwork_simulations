@@ -1,10 +1,10 @@
-----------------------------------
+##################################
   
 Title: "Neural Network Simulations"
 Author: "Ruggero Cazzato"
 Date: "09/04/2021"
 
-----------------------------------
+##################################
 
 library(readxl);library(tidyverse)
 
