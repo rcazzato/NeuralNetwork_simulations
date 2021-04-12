@@ -96,14 +96,14 @@ ANN_simulation <- function(formula, train_set, test_set, neurons, times, thresho
   table$sensitivity <- sensitivity
   table$specificity <- specificity
   table$seed <- seed
-  simulation_table <<- table
+  return(table)
  
 }
 
 
-ANN_simulation(formula = ann.equation, train_set = train, test_set = test,
-               neurons = 10, times = 1, stepmax = 1e+09, threshold = 0.05,
-               err.fct = "sse", act.fct = "logistic", linear.output = FALSE)
+simulation_table <- ANN_simulation(formula = ann.equation, train_set = train, test_set = test,
+                                   neurons = 10, times = 1, stepmax = 1e+09, threshold = 0.05,
+                                   err.fct = "sse", act.fct = "logistic", linear.output = FALSE)
 
 #the output is a table in which are recorded for each estimate: the number of neurons used,
 #accuracy, sensitivity, specificity and the seed used to obtain that particular result.
